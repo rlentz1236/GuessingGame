@@ -47,7 +47,7 @@ public class DebuggingExample {
 					System.out.println("You have guessed " + guessCount + " times");
 					break;
 				case 3:
-					generateRandomNum(min, max);
+					guessNum = generateRandomNum(min, max);
 					break;
 				case 4:
 					flag = false;
